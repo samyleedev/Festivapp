@@ -16,7 +16,7 @@ const Home = () => {
         style={styles.img}
         source={require('../assets/images/samuel-regan-asante-3BcNKoySAq0-unsplash.jpg')}>
         <Text style={styles.text}>
-          Du 07/06/2022 au 12/06/2022 ...{'\n'} C'est la fête !
+          Du 10/06/2022 au 12/06/2022 ...{'\n'} C'est la fête !
         </Text>
         <Button
           style={styles.btn}

@@ -3,12 +3,13 @@ import mongoose from "mongoose";
 const EventSchema = new mongoose.Schema(
   {
     date: {
-      type: Date,
+      type: String,
       required: true,
     },
     artists: {
-      type: [String],
-      required: false,
+      id: { type: String },
+      time: { type: String },
+      stage: { type: String },
     },
   },
   {
